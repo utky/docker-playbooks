@@ -1,0 +1,4 @@
+---
+
+- name: Intall EPEL relaese
+  yum: name=epel-release state=latest
